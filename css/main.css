@@ -262,3 +262,65 @@ footer p {
 	color: #7e8287;
 	text-align: center;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 633px) {
+	header h1 {
+		font-size: 60px;
+	}
+
+	header h2 {
+		font-size: 25px;
+	}
+
+	nav > ul > li {
+		padding: 0 5px;
+	}
+}
+
+@media (max-width: 560px) {
+	header h1 {
+		font-size: 45px;
+	}
+
+	header h2 {
+		font-size: 20px;
+	}
+
+	header p {
+		font-size: 15px;
+	}
+
+	nav > ul > li {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 469px) {
+	header h1 {
+		font-size: 35px;
+	}
+
+	header h2 {
+		font-size: 15px;
+	}
+
+	header p {
+		font-size: 12px;
+	}
+
+	nav > ul > li {
+		font-size: 10px;
+		padding: 0 2px;
+	}
+}
+
+@media (max-width: 469px) {
+	header h1 {
+		font-size: 28px;
+	}
+
+	nav > ul > li {
+		font-size: 9px;
+	}
+}
